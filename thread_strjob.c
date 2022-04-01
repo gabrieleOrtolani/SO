@@ -9,7 +9,7 @@
 #define KBLU  "\x1B[34m"
 
 
-char buffer[8]="gabriele";
+char buffer[256]="gabriele";
 
 void *thread1(void * x){
    long int status;
