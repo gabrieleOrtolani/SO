@@ -7,7 +7,7 @@
 #define KGRN  "\x1B[32m"
 #define KWHT  "\x1B[37m"
 #define KBLU  "\x1B[34m"
-#define MAX_LEN 1024
+
 
 char buffer[8]="gabriele";
 
