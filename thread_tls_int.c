@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <unistd.h>
+#include <sys/types.h>
 
 
 __thread int numero = 10;
@@ -17,7 +19,7 @@ void *thread1(void* x){
 
 
 int main(int argc, char **argv){
-        long int status;
+        void* status;
         printf("numero prima main: %d\n",numero);
         pthread_t t1;
         pthread_create(&t1,NULL,thread1,NULL);
@@ -25,3 +27,4 @@ int main(int argc, char **argv){
         printf("numero dopo main: %d\n",numero);
 
 }
+
