@@ -58,4 +58,3 @@ int main(int argc, char **argv){
    printf("%sI'm the main %d\n\tend main buffer %s; len buffer %ld\n%s",KRED,getpid(),buffer,strlen(buffer),KWHT);
    printf("%s\n",buffer);
 }
-
