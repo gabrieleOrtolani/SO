@@ -18,7 +18,7 @@ void *thread1(void* x){
 
 
 int main(int argc, char **argv){
-        long int status;
+        void* status;
         printf("string in  main before thread jobs : %s\n",stringa);
         pthread_t t1;
         pthread_create(&t1,NULL,thread1,NULL);
