@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+#include <unistd.h>
+#include <sys/types.h>
 #define KRED  "\x1B[31m"
 #define KGRN  "\x1B[32m"
 #define KWHT  "\x1B[37m"
