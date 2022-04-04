@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
-#include<unistd.h>
+#include <unistd.h>
 #include <string.h>
 int status=0;
 void *thread_function(void *stringa)
